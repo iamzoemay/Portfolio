@@ -1,0 +1,28 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 219, 219) 0%,
+    rgb(229, 248, 250) 90%
+  );
+}
+h1 {
+  text-align: center;
+  font-family: baskerville;
+  display: block;
+}
+h2 {
+  text-align: center;
+  display: block;
+  font-weight: lighter;
+  font-style: italic;
+}
+.header {
+  background-color: #ff004c;
+  opacity: 0.9;
+  margin-block: 5px;
+  padding: 10px 20px;
+  line-height: 15px;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}

@@ -16,33 +16,71 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d118ae48f9.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
   </head>
   <body>
     <h1>Ntokozo Masuku</h1>
-    <h2>Portfolio</h2>
+    <div class="header">
+      <h2>
+        <img
+          src="https://img.freepik.com/premium-photo/pink-office-desk-table-workspace-with-office-supplies_1429-5055.jpg"
+          alt="Desk Setup"
+          style="
+            width: 300px;
+            height: 337px;
+            object-fit: contain;
+            object-position: 100% 0;
+          "
+        />
+        ... ... /> Portfolio
+      </h2>
+    </div>
     <ul>
       <li>About Me</li>
       <div class="dropdown">
-        <li class="drophvr">Projects</li>
-        <div class="dropdown-content">
-          <a
-            href="https://www.shecodes.io/workshops/shecodes-basics-ee37e2b1-740e-48f8-b89a-bba616d71602/projects/1354895"
-            >Project 1 - Landing Page
-          </a>
+        <a
+          class="dropdown-toggle"
+          href=""
+          role="link"
+          id="dropdownMenuLink"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="true"
+        >
+          Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <ul>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://www.shecodes.io/workshops/shecodes-basics-ee37e2b1-740e-48f8-b89a-bba616d71602/projects/1354895"
+                >Project 1 - Landing Page
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://www.shecodes.io/workshops/shecodes-plus-a9108c95-9294-4460-a48d-553a096e60f8/projects/1633919"
+                >Project 2 - Weather App
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <li>
-        <a href="https://www.linkedin.com/in/ntokozomasuku/" target="_blank"
-          >LinkedIn</a
-        >
-      </li>
       <li>CV</li>
-      <li>
-        <a href="mailto:iamzoemay@gmail.com" target="_blank">Contact Me</a>
-      </li>
     </ul>
+    <a href="mailto:iamzoemay@gmail.com" target="_blank"
+      ><i class="fa-solid fa-envelope fa-lg" style="color: #0d0c0c"></i
+    ></a>
+    <a href="https://www.linkedin.com/in/ntokozomasuku/" target="_blank"
+      ><i class="fa-brands fa-linkedin fa-lg" style="color: #0a66c2"></i
+    ></a>
     <p>
       Coded by
       <a href="https://github.com/iamzoemay" target="_blank">Ntokozo Masuku</a>
