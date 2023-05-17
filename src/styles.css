@@ -17,12 +17,13 @@ h2 {
   display: block;
   font-weight: lighter;
   font-style: italic;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 h3 {
   text-align: center;
+  font-size: 20px;
 }
-img {
+h2 img {
   display: block;
   margin: auto;
   padding: auto;
@@ -31,8 +32,54 @@ img {
   position: fixed;
   opacity: 0.2;
 }
-li {
+ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+}
+ul li a {
+  display: block;
+  padding: 8px 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+}
+ul li ul.dropdown li {
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+ul li ul.dropdown a {
+  text-align: center;
+  margin-left: -10px;
+  font-size: 15px;
+}
+ul li ul.dropdown {
+  width: 100%;
+  background-color: #f7dbda;
+  position: absolute;
+  z-index: none;
+  display: none;
+  padding: 0;
+}
+ul li a:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 219, 219) 0%,
+    rgb(229, 248, 250) 100%
+  );
+  text-decoration: none;
+  color: #000;
+}
+ul li:hover ul.dropdown {
+  display: block;
+  background: radial-gradient(circle at 10% 20%, rgb(248, 219, 219) 0%);
 }
 a {
   text-decoration: none;
@@ -55,7 +102,7 @@ a {
 }
 .contact {
   text-align: center;
-  margin-top: 130px;
+  margin-top: 220px;
 }
 .containers {
   display: block;
