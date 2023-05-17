@@ -39,7 +39,9 @@
     <div class="containers">
       <h3>
         <div class="row">
-          <div class="col-3">About Me</div>
+          <div class="col-3">
+            <a href="/about.html"> About Me</a>
+          </div>
           <div class="col-3">
             <ul>
               <li>
@@ -74,7 +76,9 @@
               </li>
             </ul>
           </div>
-          <div class="col-2">CV</div>
+          <div class="col-2">
+            <a href=""> CV</a>
+          </div>
         </div>
       </h3>
     </div>
@@ -84,10 +88,52 @@
         ><i class="fa-brands fa-linkedin fa-lg" style="color: #0a66c2"></i
       ></a>
       Contact Me
-      <a href="mailto:iamzoemay@gmail.com" target="_blank"
+
+      <a href="/envelope"
         ><i class="fa-solid fa-envelope fa-lg" style="color: #0d0c0c"></i
       ></a>
     </p>
+    <div class="contain envelope page-enter-done">
+      <form class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <div class="row">
+          <div class="col-3">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-2">
+            <input type="text" class="form-control" placeholder="First name" />
+          </div>
+          <div class="col-2">
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+        </div>
+        <div class="form-groups">
+          <div class="col-4">
+            <label
+              class="message"
+              for="exampleFormControlTextarea1"
+              placeholder="Message"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
     <hr />
     <p class="footer">
       Coded by
